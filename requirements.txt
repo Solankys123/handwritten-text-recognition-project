@@ -1,1 +1,5 @@
-torch\ntorchvision\npillow\nstreamlit\ntqdm
+torch
+torchvision
+pillow
+streamlit
+tqdm
