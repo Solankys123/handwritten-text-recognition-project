@@ -123,16 +123,18 @@ def preprocess_image(img):
     return tr(img).unsqueeze(0)
 
 
+
 # ------------------------------
-# DEMO IMAGE LINKS (SAFE & VERIFIED)
+# DEMO IMAGE LINKS (Hosted on GitHub for guaranteed loading)
 # ------------------------------
 DEMO_IMAGES = {
-    "📜 Sample 1": "https://i.imgur.com/F7n3x1H.png",
-    "🖋️ Sample 2": "https://i.imgur.com/TuhYBZR.png",
-    "✍️ Sample 3": "https://i.imgur.com/jpXkn2H.png",
-    "📖 Sample 4": "https://i.imgur.com/tmt7t3n.png",
-    "📘 Sample 5": "https://i.imgur.com/yW3iZ7k.png",
+    "📜 Sample 1": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_images/sample1.png",
+    "🖋️ Sample 2": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_images/sample2.png",
+    "✍️ Sample 3": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_images/sample3.png",
+    "📖 Sample 4": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_images/sample4.png",
+    "📘 Sample 5": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_images/sample5.png",
 }
+
 
 # ------------------------------
 # STREAMLIT UI
