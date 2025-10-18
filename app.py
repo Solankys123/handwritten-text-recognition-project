@@ -128,11 +128,11 @@ def preprocess_image(img):
 # DEMO IMAGE LINKS (Hosted on GitHub for guaranteed loading)
 # ------------------------------
 DEMO_IMAGES = {
-    "📜 Sample 1": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_images/sample1.png",
-    "🖋️ Sample 2": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_images/sample2.png",
-    "✍️ Sample 3": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_images/sample3.png",
-    "📖 Sample 4": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_images/sample4.png",
-    "📘 Sample 5": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_images/sample5.png",
+    "📜 Sample 1": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_imagess/sample1.png",
+    "🖋️ Sample 2": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_imagess/sample2.png",
+    "✍️ Sample 3": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_imagess/sample3.png",
+    "📖 Sample 4": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_imagess/sample4.png",
+    "📘 Sample 5": "https://raw.githubusercontent.com/Solankys123/handwritten-text-recognition-project/main/demo_imagess/sample5.png",
 }
 
 
