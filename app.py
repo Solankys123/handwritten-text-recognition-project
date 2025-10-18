@@ -10,8 +10,17 @@ import os
 # ------------------------------
 # CONFIGURATION
 # ------------------------------
-MODEL_URL = "https://github.com/Solankys123/handwritten_text_recognition/raw/main/model/crnn_iam_advanced_fp16.pth"
-MODEL_PATH = "model/crnn_iam_advanced_fp16.pth"
+MODEL_URL = "https://github.com/Solankys123/handwritten_text_recognition/raw/main/model/crnn_iam_advanced.pth.pth"
+import gdown, os
+
+# Google Drive direct download link
+url = "https://drive.google.com/uc?id=1ectKYXIgzwfvWeVaZvb9Na0Y4AvZiwPH"  # 👈 replace with your Drive file ID
+MODEL_PATH = "crnn_iam_advanced.pth"
+
+if not os.path.exists(MODEL_PATH):
+    with st.spinner("⬇️ Downloading model weights (please wait)..."):
+        gdown.download(url, MODEL_PATH, quiet=False)
+    st.success("✅ Model downloaded successfully!")
 
 CHARSET = string.digits + string.ascii_lowercase + string.ascii_uppercase + " .,!?'-"
 
