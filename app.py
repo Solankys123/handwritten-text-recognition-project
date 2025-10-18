@@ -10,7 +10,7 @@ import os
 # ------------------------------
 # CONFIGURATION
 # ------------------------------
-MODEL_URL = "https://github.com/YOUR_USERNAME/handwritten_text_recognition/raw/main/model/crnn_iam_advanced_fp16.pth"
+MODEL_URL = "https://github.com/Solankys123/handwritten_text_recognition/raw/main/model/crnn_iam_advanced_fp16.pth"
 MODEL_PATH = "model/crnn_iam_advanced_fp16.pth"
 
 CHARSET = string.digits + string.ascii_lowercase + string.ascii_uppercase + " .,!?'-"
